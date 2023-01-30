@@ -1,0 +1,485 @@
+/* responsive design for small devices */
+
+
+@media (max-width:576px) {
+
+    /* nav_header section css */
+    #nav_header {
+        display: none;
+    }
+
+    #nav_middle {
+        display: none;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .nav_background {
+        display: block;
+    }
+
+    .nav_trigger {
+        display: block;
+    }
+
+    /* banner section css */
+    #banner {
+        background: url(../images/hero.png) no-repeat center/cover;
+        padding: 60px 0;
+        background-color: white;
+    }
+
+    .welcome {
+        justify-content: center;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 45px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .banner_btn {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary_btn {
+        padding: 10px 20px;
+    }
+
+    .secondary_btn {
+        padding: 10px 20px;
+    }
+
+    .banner_img {
+        padding-top: 50px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    /* about section css */
+    #about_product {
+        background: white;
+    }
+
+    .about_product_text h4 {
+        text-align: center;
+    }
+
+    .about_product_text p {
+        text-align: center;
+    }
+
+    .product_about_btn {
+        text-align: center;
+    }
+
+    /* post section css */
+    .post_item {
+        margin-bottom: 40px;
+    }
+
+    .post_date p {
+        font-size: 13px;
+
+    }
+
+    .post_comments h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .post_comments p {
+        font-size: 13px;
+    }
+
+    /* service section css */
+    .service_item {
+        margin-bottom: 40px;
+    }
+
+    /* contact us section */
+
+    .ex_padding {
+        background: white;
+    }
+
+    .map_location {
+
+        overflow: hidden;
+    }
+
+    .contact_info {
+        padding-bottom: 40px;
+    }
+
+    /* countdown section css */
+    #clockdiv {
+        flex-wrap: wrap;
+    }
+
+    .countdown_item {
+        padding: 30px 40px;
+    }
+
+    /* footer section css */
+
+    .footer_common_header {
+        padding-bottom: 50px;
+    }
+
+    .footer_text a {
+        margin-bottom: 10px;
+    }
+
+    .footer_item {
+        padding-top: 20px;
+    }
+
+    .footer_gall {
+        justify-content: center;
+    }
+
+}
+
+/* medium device responsive */
+
+
+@media (max-width:992px) {
+
+    /* nav_header section css */
+
+
+    .nav_background {
+        display: block;
+    }
+
+    .nav_trigger {
+        display: block;
+    }
+
+    /* banner section css */
+    #banner {
+        background: url(../images/hero.png) no-repeat center/cover;
+        padding: 60px 0;
+        background-color: white;
+    }
+
+    .welcome {
+        justify-content: center;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 45px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .banner_btn {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary_btn {
+        padding: 10px 20px;
+    }
+
+    .secondary_btn {
+        padding: 10px 20px;
+    }
+
+    .banner_img {
+        padding-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    /* about section css */
+    #about_product {
+        background: white;
+    }
+
+    .about_product_text h4 {
+        text-align: center;
+    }
+
+    .about_product_text p {
+        text-align: center;
+    }
+
+    .product_about_btn {
+        text-align: center;
+    }
+
+    /* product slider css */
+
+    .card button span {
+        padding: 0px 5px;
+        font-size: 12px;
+
+    }
+
+    /* post section css */
+    .post_item {
+        margin-bottom: 40px;
+    }
+
+    .post_date p {
+        font-size: 13px;
+
+    }
+
+    .post_comments h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .post_comments p {
+        font-size: 13px;
+    }
+
+    /* service section css */
+    .service_item {
+        margin-bottom: 40px;
+    }
+
+    /* contact us section */
+
+    .ex_padding {
+        background: white;
+    }
+
+    .map_location {
+
+        overflow: hidden;
+    }
+
+    .contact_info {
+        padding-bottom: 40px;
+    }
+
+    /* countdown section css */
+    #clockdiv {
+        flex-wrap: wrap;
+    }
+
+    .countdown_item {
+        padding: 30px 40px;
+    }
+
+    /* footer section css */
+
+    .footer_common_header {
+        padding-bottom: 50px;
+    }
+
+    .footer_text a {
+        margin-bottom: 10px;
+    }
+
+    .footer_item {
+        padding-top: 20px;
+    }
+
+    .footer_gall {
+        justify-content: center;
+    }
+
+}
+
+/* large device part */
+
+
+@media (max-width:992px) {
+
+    /* nav_header section css */
+    #nav_header {
+        display: none;
+    }
+
+    #nav_middle {
+        display: none;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .nav_background {
+        display: block;
+    }
+
+    .nav_trigger {
+        display: block;
+    }
+
+    /* banner section css */
+    #banner {
+        background: url(../images/hero.png) no-repeat center/cover;
+        padding: 60px 0;
+        background-color: white;
+    }
+
+    .welcome {
+        justify-content: center;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 45px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .banner_btn {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary_btn {
+        padding: 10px 20px;
+    }
+
+    .secondary_btn {
+        padding: 10px 20px;
+    }
+
+    .banner_img {
+        padding-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    /* about section css */
+    #about_product {
+        background: white;
+    }
+
+    .about_product_text h4 {
+        text-align: center;
+    }
+
+    .about_product_text p {
+        text-align: center;
+    }
+
+    .product_about_btn {
+        text-align: center;
+    }
+
+    /* product slider css */
+
+    .card button span {
+        padding: 0px 5px;
+        font-size: 12px;
+
+    }
+
+    /* post section css */
+    .post_item {
+        margin-bottom: 40px;
+    }
+
+    .post_date p {
+        font-size: 13px;
+
+    }
+
+    .post_comments h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .post_comments p {
+        font-size: 13px;
+    }
+
+    /* service section css */
+    .service_item {
+        margin-bottom: 40px;
+    }
+
+    /* contact us section */
+
+    .ex_padding {
+        background: white;
+    }
+
+    .map_location {
+
+        overflow: hidden;
+    }
+
+    .contact_info {
+        padding-bottom: 40px;
+    }
+
+    /* countdown section css */
+    #clockdiv {
+        flex-wrap: wrap;
+    }
+
+    .countdown_item {
+        padding: 30px 40px;
+    }
+
+    /* footer section css */
+
+    .footer_common_header {
+        padding-bottom: 50px;
+    }
+
+    .footer_text a {
+        margin-bottom: 10px;
+    }
+
+    .footer_item {
+        padding-top: 20px;
+    }
+
+    .footer_gall {
+        justify-content: center;
+    }
+
+}
